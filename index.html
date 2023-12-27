@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/side-bar.css" />
+    <title>Aside</title>
+  </head>
+  <body>
+    <aside class="aside">
+      <div class="aside-header aside-header--margin">
+        <div class="menu-logo">
+          <button class="button-main">
+            <img
+              class="button-main--img-burger"
+              src="image/burger.svg"
+              alt="Меню"
+            />
+          </button>
+          <img class="menu-logo__img" src="image/Group.svg" alt="Логотип" />
+        </div>
+        <button class="button-main">
+          <img
+            class="button-main--img-checkstatus"
+            src="image/checkstatus.svg"
+            alt="Меню"
+          />
+        </button>
+      </div>
+      <main class="aside-main">
+        <nav class="aside-main__nav">
+          <ul class="aside-main__information aside-information">
+            <li class="aside-information__li">
+              <button class="aside-information__button">Ремонт техники</button>
+            </li>
+            <li class="aside-information__li">
+              <button class="aside-information__button">
+                Услуги и сервисы
+              </button>
+            </li>
+            <li class="aside-information__li">
+              <button class="aside-information__button">
+                Корпоративным клиентам
+              </button>
+            </li>
+            <li class="aside-information__li">
+              <button class="aside-information__button">
+                Продавцам техники
+              </button>
+            </li>
+            <li class="aside-information__li">
+              <button class="aside-information__button">Партнерам</button>
+            </li>
+            <li class="aside-information__li">
+              <button class="aside-information__button">Производителям</button>
+            </li>
+            <li class="aside-information__li">
+              <button class="aside-information__button">
+                Наши сервисные центры
+              </button>
+            </li>
+            <li class="aside-information__li">
+              <button class="aside-information__button">Контакты</button>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="contact-full contact-full--margin">
+          <div class="contact">
+            <button class="button-main contact__button--margin">
+              <img
+                class="button-main__img-call"
+                src="./image/call.svg"
+                alt="Позвонить"
+              />
+            </button>
+            <button class="button-main contact__button--margin">
+              <img
+                class="button-main__img-chat"
+                src="image/chat.svg"
+                alt="Оставить сообщение"
+              />
+            </button>
+            <button class="button-main contact__button--margin">
+              <img
+                class="button-main__img-profile"
+                src="image/profile.svg"
+                alt="Личный профиль"
+              />
+            </button>
+          </div>
+          <a
+            class="contact-full__link contact-full__mail"
+            href="mailto:mail@cps.com"
+            >mail@cps.com</a
+          >
+          <a
+            class="contact-full__link contact-full__telephone"
+            href="tel:+78008908900"
+            >8 800 890 8900</a
+          >
+        </div>
+
+        <div class="radio-lang radio-lang--margin">
+          <input
+            class="radio-lang__input"
+            type="radio"
+            name="lang"
+            id="RU"
+            value="RU"
+          />
+          <label class="radio-lang__inputp" for="RU">RU</label>
+          <input
+            class="radio-lang__input"
+            type="radio"
+            name="lang"
+            id="EN"
+            value="EN"
+          />
+          <label class="radio-lang__inputp" for="EN">EN</label>
+          <input
+            class="radio-lang__input"
+            type="radio"
+            name="lang"
+            id="CH"
+            value="CH"
+          />
+          <label class="radio-lang__inputp" for="CH">CH</label>
+        </div>
+      </main>
+    </aside>
+  </body>
+</html>
